@@ -52,15 +52,18 @@ body {
     transform: rotate(45deg);
     height: 15px;
     width: 7px;
+    margin-top: 1rem;
   }
   
   .close {
     position: absolute;
     right: 0;
     top: 0;
-    padding: 12px 16px 12px 16px;
+    padding:12px 16px 12px 16px;
     background-color: #f44336;
     color: white;
+    border-radius: 5px;
+
   }
   
   .header {
@@ -88,7 +91,7 @@ body {
   
   .addBtn {
     padding: 10px;
-    width: 25%;
+    width: 10%;
     background: #d9d9d9;
     color: #555;
     float: left;
@@ -97,6 +100,7 @@ body {
     cursor: pointer;
     transition: 0.3s;
     border-radius: 0;
+    margin-left: 1rem;
   }
   
   .addBtn:hover {
